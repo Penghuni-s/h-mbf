@@ -22,7 +22,7 @@ def aahh(s):
 def kontol():
     time.sleep(0.3)
     print("""\n\x1b[1;91m█████████████████████
- █████████████████████
+█████████████████████
 \x1b[1;97m█████████████████████
 █████████████████████
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ────────paler──────── \x1b[1;92m •\x1b[1;93m•\x1b[1;91m•      
@@ -156,7 +156,7 @@ def moch_yayan():
                   aws = getlike(mbasic.format(love))
                   return aws
              except:
-                  exit(" \033[1;97m [\033[1;94m•\033[1;97m] Link Not Found!")
+                  exit(" \033[1;97m [\033[1;94m•\033[1;97m] link tidak ada!")
          def getlike(react):
              like = requests.get(react,cookies=kuki).content
              ids  = re.findall('class="b."><a href="(.*?)">(.*?)</a></h3>',str(like))
@@ -214,8 +214,8 @@ def moch_yayan():
                          print("\n\n\033[00m [\033[91m!\033[00m] Wrong Input!")
                          yayanxd()
                    elif memek == '0' or memek =='00':
-                         aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
-                         os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
+                         aahh("\n\033[1;92m ntar balik lagi yaa...\n\n")
+                         os.system('')
                          exit()                   	
                    elif memek == '7' or memek =='07':
                          print("\n\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[1;96mPlease Wait... ")
@@ -350,7 +350,7 @@ def moch_yayan():
          yayanxd()
     elif yayan == "0" or yayan =="00":
          aahh("\n\033[1;92m pergi sana lu anjing\n\n")
-         os.system('')
+         os.system()
          exit()                   	
 
 if __name__=="__main__":
