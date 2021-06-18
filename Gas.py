@@ -1,16 +1,3 @@
-#JANGAN DIPERJUAL BELIKAN!
-#RECODE? BOLEH! JANGAN UBAH 
- FOLLOW SAMA KOMEN
-
-#AUTHOR: MUHAMMAD LATIF HARKAT
-#WA: 083870396203
-#FB: Latif Latif Latif Latif
-#SC VERSION: 1.0 (BETA)
-
-#OPEN SOURCE TEAM
-import requests as req,json,time,os,cowsay
-from concurrent.futures import ThreadPoolExecutor as Bool
-from bs4 import BeautifulSoup as parser
 
 try:
     ua =open('ua','r').read()
