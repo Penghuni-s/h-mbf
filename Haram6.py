@@ -21,11 +21,12 @@ def aahh(s):
         time.sleep(1./300)
 def kontol():
     time.sleep(0.3)
-    print("""\n\x1b[1;91m█████████████████████
-█████████████████████
-\x1b[1;97m█████████████████████
-█████████████████████
-\x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ────────paler──────── \x1b[1;92m •\x1b[1;93m•\x1b[1;91m•      
+    print("""\n\x1b[1;91m█████████████████████╗
+█████████████████████║
+\x1b[1;97m█████████████████████║
+█████████████████████║
+                 ╚══════════════╝
+\x1b[1;91m  ❀\x1b[1;93m❀\x1b[1;92m❀\x1b[1;97m ────────paler──────── \x1b[1;92m ❀\x1b[1;93m❀\x1b[1;91m❀      
 \x1b[1;93m────────────────────────────────────────────────────
 \x1b[1;91mAuthor   : ehan kihh
 \x1b[1;93m────────────────────────────────────────────────────""")
@@ -43,7 +44,7 @@ def jembut():
 def yayanxd():
     yayan=input("\n\033[00m\t   [\033[96m enter aja\033[97m ] ")
     if yayan == "": 
-       os.system("python Cr4ck.py")
+       os.system("python Haram5.py")
     else:
        sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97m] \033[1;91mGood Byee :')")
 def moch_yayan():
@@ -350,7 +351,7 @@ def moch_yayan():
          yayanxd()
     elif yayan == "0" or yayan =="00":
          aahh("\n\033[1;92m pergi sana lu anjing\n\n")
-         os.system()
+         os.system(python Haram6.py)
          exit()                   	
 
 if __name__=="__main__":
