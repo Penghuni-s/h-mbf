@@ -21,29 +21,23 @@ def aahh(s):
         time.sleep(1./300)
 def kontol():
     time.sleep(0.3)
-    aahh("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
-     ██╔════╝██╔══██╗██║  ██║██╔════╝██║ ██╔╝
-     ██║     ██████╔╝███████║██║     █████╔╝ 
-\x1b[1;97m     ██║     ██╔══██╗╚════██║██║     ██╔═██╗ 
-     ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
-\x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
+    aah("""\n\x1b[1;91m█████████████████████
+       █████████████████████
+\x1b[1;97m       █████████████████████
+       █████████████████████
+\x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m paler\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•      
 \x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : YayanXD
-\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Yayan-XD
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
+\x1b[1;91mAuthor   : ehan kihh
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def jembut():
-    print("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
-     ██╔════╝██╔══██╗██║  ██║██╔════╝██║ ██╔╝
-     ██║     ██████╔╝███████║██║     █████╔╝ 
-\x1b[1;97m     ██║     ██╔══██╗╚════██║██║     ██╔═██╗ 
-     ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
-\x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
+    print("""\n\x1b[1;91m█████████████████████
+       █████████████████████
+\x1b[1;97m       █████████████████████
+       █████████████████████
+\x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m paler\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•      
 \x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : YayanXD
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/Yayan-XD
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
+\x1b[1;91mAuthor   : ehan kihh
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def yayanxd():
@@ -54,10 +48,7 @@ def yayanxd():
        sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97m] \033[1;91mGood Byee :')")
 def moch_yayan():
     time.sleep(0.1)
-    print("\033[97m [\033[96m01\033[97m] Start  Cr4ck ID")
-    print("\033[97m [\033[96m02\033[97m] Tutor  How to Get Fb Cookies")
-    print("\033[97m [\033[96m03\033[97m] Joined Grup Fb ❤️ RATU ERROR ❤️")
-    print("\033[97m [\033[96m04\033[97m] Joined Grup Fb Viral")
+    print("\033[97m [\033[96m01\033[97m] lanjut")
     print("\033[97m [\033[96m05\033[97m] Update Tools")
     print("\033[97m [\033[91m00\033[97m] Exit")
     print("\x1b[1;94m────────────────────────────────────────────────────")
@@ -348,10 +339,10 @@ def moch_yayan():
          os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
          yayanxd()
     elif yayan == "3" or yayan =="03":
-         os.system('xdg-open https://www.facebook.com/groups/271952186154338')
+         os.system('xdg-open https://www.facebook.com/groups/1683226775285117')
          yayanxd()
     elif yayan == "4" or yayan =="04":
-         os.system('xdg-open https://www.facebook.com/groups/310605552656196')
+         os.system('xdg-open https://www.facebook.com/groups/868734063220514')
          yayanxd()
     elif yayan == "5" or yayan =="05":
          print("\n\n\x1b[1;97m      [ \x1b[1;92mPlease Wait While Updating The Tools \x1b[1;97m]\n")
@@ -370,3 +361,4 @@ if __name__=="__main__":
      kontol()
      moch_yayan()
      yayanxd()
+
