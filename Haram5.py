@@ -351,8 +351,8 @@ def moch_yayan():
          yayanxd()
     elif yayan == "0" or yayan =="00":
          aahh("\n\033[1;92m pergi sana lu anjing\n\n")
-         os.system(python Haram6.py)
-         exit()                   	
+         os.system('')
+         exit()               	
 
 if __name__=="__main__":
      ikeh_ikeh_kimochi()
