@@ -260,10 +260,8 @@ def moch_yayan():
                                  exit("\033[00m[\033[91m!\033[00m] Group ID None!")
                    elif memek == '5' or memek =='05':
                          totalcp = open("results/CP-%s-%s-%s.txt"%(ha, op, ta)).read().splitlines()
-                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
                     print(" \033[0;97m[\033[0;92m+\033[0;97m] Hasil \033[0;93mCP\033[0;97m pada tanggal : \033[0;92m%s-%s-%s \x1b[0mTotal %s: %s%s\033[0;93m\n"%(ha, op, ta,M,K,len(totalcp)))
                     os.system("cat results/CP-%s-%s-%s.txt"%(ha, op, ta))
-                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
                     raw_input('\n  [ %sKEMBALI%s ] '%(O,N))     
                    elif memek == '6' or memek =='06':
                          try:
@@ -356,4 +354,5 @@ if __name__=="__main__":
      kontol()
      moch_yayan()
      yayanxd()
+
 
