@@ -337,19 +337,8 @@ def moch_yayan():
 
     elif yayan == "2" or yayan =="02":
      	print("\n\n\x1b[1;97m      [ \x1b[1;92mtunggu aja lagi update \x1b[1;97m]\n")
-         os.system("git pull")
+         os.system(git pull")
          print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m sukses update!\n ")
-         yayanxd()
-    elif yayan == "3" or yayan =="03":
-         os.system('')
-         yayanxd()
-    elif yayan == "4" or yayan =="04":
-         os.system('')
-         yayanxd()
-    elif yayan == "5" or yayan =="05":
-         print("")
-         os.system("")
-         print("")
          yayanxd()
     elif yayan == "0" or yayan =="00":
          aahh("\n\033[1;92m pergi sana lu anjing\n\n")
