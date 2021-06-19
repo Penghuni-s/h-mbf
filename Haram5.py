@@ -28,7 +28,8 @@ def kontol():
          ╚═════════════════╝
 \x1b[1;91m  ❀\x1b[1;93m❀\x1b[1;92m❀\x1b[1;97m ────────paler──────── \x1b[1;92m ❀\x1b[1;93m❀\x1b[1;91m❀      
 \x1b[1;93m────────────────────────────────────────────────────
-\x1b[1;91mAuthor   : ehan kihh
+\x1b[1;91mAuthor   : YayanXD
+\x1b[1;91mrecode  : ehan
 \x1b[1;93m────────────────────────────────────────────────────""")
 
 def jembut():
@@ -38,7 +39,8 @@ def jembut():
   █████████████████████
 \x1b[1;91m  ❀\x1b[1;93m❀\x1b[1;92m❀\x1b[1;97m ────────paler──────── \x1b[1;92m ❀\x1b[1;93m❀\x1b[1;91m❀      
 \x1b[1;93m────────────────────────────────────────────────────
-\x1b[1;91mAuthor   : ehan kihh
+\x1b[1;91mAuthor   : YayanXD
+\x1b[1;91mrecode  : ehan
 \x1b[1;93m────────────────────────────────────────────────────""")
 
 def yayanxd():
@@ -257,16 +259,12 @@ def moch_yayan():
                          if len(username) == 0:
                                  exit("\033[00m[\033[91m!\033[00m] Group ID None!")
                    elif memek == '5' or memek =='05':
-                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Username/Id \033[1;91m: \033[1;92m")
-                         if knf.isdigit():
-                                 user = "/profile.php?id=" + knf
-                         else:
-                                 user = "/" + knf
-                         try:
-                                 user = parser(requests.get(mbasic.format(user),cookies=kuki).content,"html.parser").find('a',string="Teman")["href"]
-                                 username = getid(mbasic.format(user))
-                         except TypeError:
-                                 exit("\033[00m[\033[91m!\033[00m] \033[97mUser/ID Wrong!")
+                         totalcp = open("results/CP-%s-%s-%s.txt"%(ha, op, ta)).read().splitlines()
+                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
+                    print(" \033[0;97m[\033[0;92m+\033[0;97m] Hasil \033[0;93mCP\033[0;97m pada tanggal : \033[0;92m%s-%s-%s \x1b[0mTotal %s: %s%s\033[0;93m\n"%(ha, op, ta,M,K,len(totalcp)))
+                    os.system("cat results/CP-%s-%s-%s.txt"%(ha, op, ta))
+                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
+                    raw_input('\n  [ %sKEMBALI%s ] '%(O,N))     
                    elif memek == '6' or memek =='06':
                          try:
                                  file1 = open("cp.txt").read()
