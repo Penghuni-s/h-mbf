@@ -9,10 +9,7 @@
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
-echo
-echo"
-echo"
-echo"
+
 def croot():
     os.system("git pull")
 def ikeh_ikeh_kimochi():
