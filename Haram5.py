@@ -27,7 +27,6 @@ def kontol():
       █████████████████████║
          ╚═════════════════╝
 \x1b[1;91m  ❀\x1b[1;93m❀\x1b[1;92m❀\x1b[1;97m ────────paler──────── \x1b[1;92m ❀\x1b[1;93m❀\x1b[1;91m❀ 
-print ' (\033[0;96m•\033[0m) IP DEVICE   : 
 \x1b[1;93m────────────────────────────────────────────────────
 \x1b[1;91mAuthor   : YayanXD
 \x1b[1;91mrecode  : ehan
@@ -270,23 +269,13 @@ def moch_yayan():
                          except TypeError:
                                  exit("\033[00m[\033[91m!\033[00m] \033[97mUser/ID Wrong!")
                    elif memek == '6' or memek =='06':
-                         try:
-                                 file1 = open("cp.txt").read()
-                                 file2 = open("ok.txt").read()
-                                 a = file1 + file2
-                                 final = a.strip().split("\n")
-                                 final = set(final)
-                                 print(f"\033[97m\n [\033[93m{str(len(final))}\033[97m] untuk memeriksa akun")
-                                 with ThreadPoolExecutor(max_workers=10) as ex:
-                                         for user in final:
-                                                 a = user.split("|")
-                                                 ex.submit(login,(a[0]),(a[1]),(True))
-                                 for x in result:
-                                         with open('ok.txt','a') as f:
-                                                 f.write(x+'\n')
-                                 for x in chek:
-                                         with open('cp.txt','a') as f:
-                                                 f.write(x+"\n")
+                              try:
+                    totalcp = open("results/CP-%s-%s-%s.txt"%(ha, op, ta)).read().splitlines()
+                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
+                    print(" \033[0;97m[\033[0;92m+\033[0;97m] Hasil \033[0;93mCP\033[0;97m pada tanggal : \033[0;92m%s-%s-%s \x1b[0mTotal %s: %s%s\033[0;93m\n"%(ha, op, ta,M,K,len(totalcp)))
+                    os.system("cat results/CP-%s-%s-%s.txt"%(ha, op, ta))
+                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
+                    raw_input('\n  [ %sKEMBALI%s ] '%())
 
                                  print("\n\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] crack selesai....")
                                  print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] simpan \033[1;93mcp.txt\033[96m|\033[1;92mok.txt")
