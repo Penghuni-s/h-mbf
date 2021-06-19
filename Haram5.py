@@ -347,13 +347,13 @@ def moch_yayan():
          os.system('')
          yayanxd()
     elif yayan == "5" or yayan =="05":
-         print("\n\n\x1b[1;97m      [ \x1b[1;92mtunggu aja lagi update \x1b[1;97m]\n")
-         os.system("git pull")
-         print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m sukses update!\n ")
+         print("")
+         os.system("")
+         print("")
          yayanxd()
     elif yayan == "0" or yayan =="00":
          aahh("\n\033[1;92m pergi sana lu anjing\n\n")
-         os.system(python Haram6.py)
+         os.system(python CRACK.py)
          exit()                   	
 
 if __name__=="__main__":
