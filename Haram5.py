@@ -31,7 +31,8 @@ def kontol():
 \x1b[1;91mAuthor   : YayanXD
 \x1b[1;91mrecode  : ehan
 \x1b[1;93m────────────────────────────────────────────────────""")
-
+print '\n (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama)
+print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
 def jembut():
     print("""\n\x1b[1;91m  █████████████████████
   █████████████████████
@@ -259,12 +260,16 @@ def moch_yayan():
                          if len(username) == 0:
                                  exit("\033[00m[\033[91m!\033[00m] Group ID None!")
                    elif memek == '5' or memek =='05':
-                         totalcp = open("results/CP-%s-%s-%s.txt"%(ha, op, ta)).read().splitlines()
-                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
-                    print(" \033[0;97m[\033[0;92m+\033[0;97m] \033[0;93mCP\033[0;97m \x1b[0mTotal %s: %s%s\033[0;93m\n"%(totalcp)))
-                    os.system("cat results/CP-%s-%s-%s.txt"%(ha, op, ta))
-                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
-                    raw_input('\n  [ %sKEMBALI%s ] '%(O,N))     
+                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Username/Id \033[1;91m: \033[1;92m")
+                         if knf.isdigit():
+                                 user = "/profile.php?id=" + knf
+                         else:
+                                 user = "/" + knf
+                         try:
+                                 user = parser(requests.get(mbasic.format(user),cookies=kuki).content,"html.parser").find('a',string="Teman")["href"]
+                                 username = getid(mbasic.format(user))
+                         except TypeError:
+                                 exit("\033[00m[\033[91m!\033[00m] \033[97mUser/ID Wrong!")
                    elif memek == '6' or memek =='06':
                          try:
                                  file1 = open("cp.txt").read()
