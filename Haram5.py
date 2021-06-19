@@ -211,7 +211,7 @@ def moch_yayan():
                    aahh('\033[1;97m [\033[1;92m07\033[1;98m] HAPUS COOKIES')
                    aahh('\033[1;97m [\033[1;91m00\033[1;99m] KELUAR')
                    print('\x1b[1;93m────────────────────────────────────────────────────')
-                   print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
+                   print('\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
                    memek = input('\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
                    if memek =="":
                          print("\n\n\033[00m [\033[91m!\033[00m] Wrong Input!")
