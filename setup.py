@@ -1,4 +1,4 @@
-#anjing
+#anjing/setup
 clear
 echo
 echo "        ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗"
