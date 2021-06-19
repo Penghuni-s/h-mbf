@@ -22,21 +22,21 @@ def aahh(s):
 def kontol():
     time.sleep(0.3)
     print("""\n\x1b[1;91m█████████████████████╗
-█████████████████████║
-\x1b[1;97m█████████████████████║
-█████████████████████║
- ╚═══════════════════╝
+  █████████████████████║
+\x1b[1;97m  █████████████████████║
+  █████████████████████║
+                   ╚══════════════╝
 \x1b[1;91m  ❀\x1b[1;93m❀\x1b[1;92m❀\x1b[1;97m ────────paler──────── \x1b[1;92m ❀\x1b[1;93m❀\x1b[1;91m❀      
 \x1b[1;93m────────────────────────────────────────────────────
 \x1b[1;91mAuthor   : ehan kihh
 \x1b[1;93m────────────────────────────────────────────────────""")
 
 def jembut():
-    print("""\n\x1b[1;91m█████████████████████
-█████████████████████
-\x1b[1;97m█████████████████████
-█████████████████████
-\x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m paler\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•      
+    print("""\n\x1b[1;91m  █████████████████████
+  █████████████████████
+\x1b[1;97m  █████████████████████
+  █████████████████████
+\x1b[1;91m  ❀\x1b[1;93m❀\x1b[1;92m❀\x1b[1;97m ────────paler──────── \x1b[1;92m ❀\x1b[1;93m❀\x1b[1;91m❀      
 \x1b[1;93m────────────────────────────────────────────────────
 \x1b[1;91mAuthor   : ehan kihh
 \x1b[1;93m────────────────────────────────────────────────────""")
@@ -50,7 +50,7 @@ def yayanxd():
 def moch_yayan():
     time.sleep(0.1)
     print("\033[97m [\033[96m01\033[97m] lanjut")
-    print("\033[97m [\033[96m05\033[97m] Update Tools")
+    print("\033[97m [\033[96m02\033[97m] Update Tools")
     print("\033[97m [\033[91m00\033[97m] Exit")
     print("\x1b[1;94m────────────────────────────────────────────────────")
     time.sleep(0.1)
@@ -219,7 +219,7 @@ def moch_yayan():
                          os.system('')
                          exit()                   	
                    elif memek == '7' or memek =='07':
-                         print("\n\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[1;96mPlease Wait... ")
+                         print("\n\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[1;96mmohhon tunggu... ")
                          aahh("\x1b[1;92m • 10")
                          aahh("\x1b[1;93m •• 20")
                          aahh("\x1b[1;94m ••• 30")
@@ -246,7 +246,7 @@ def moch_yayan():
                                  username = username.replace('m.facebook','mbasic.facebook.com')
                          username = fromlikes(username)
                    elif memek == '3' or memek =='03':
-                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] The Name You Want To Search For \033[1;91m: \033[1;92m")
+                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] CARI NAMA TEMAN\033[1;91m: \033[1;92m")
                          username = bysearch(mbasic.format('/search/people/?q='+knf))
                          if len(username) == 0:
                                  exit("\033[90m[\033[91m!\033[90m] No Name!")
@@ -274,7 +274,7 @@ def moch_yayan():
                                  a = file1 + file2
                                  final = a.strip().split("\n")
                                  final = set(final)
-                                 print(f"\033[97m\n [\033[93m{str(len(final))}\033[97m] Account To Check ")
+                                 print(f"\033[97m\n [\033[93m{str(len(final))}\033[97m] untuk memeriksa akun")
                                  with ThreadPoolExecutor(max_workers=10) as ex:
                                          for user in final:
                                                  a = user.split("|")
@@ -291,7 +291,7 @@ def moch_yayan():
                          except FileNotFoundError:
                                  exit("\n\033[00m[\033[91m!\033[00m] yahahaha gk dapat")
                    else:
-                         print("\n\n \033[00m[\033[91m!\033[00m] cari yang asli goblok!")
+                         print("\n\n \033[00m[\033[91m!\033[00m] cari yang lain goblok!")
                          yayanxd()
                    print()
                    ikeh_ikeh_kimochi()
@@ -336,7 +336,9 @@ def moch_yayan():
                        exit("\n\n\033[00m  [\033[91m!\033[00m] no Connection")
 
     elif yayan == "2" or yayan =="02":
-         os.system("xdg-open") 
+     	print("\n\n\x1b[1;97m      [ \x1b[1;92mtunggu aja lagi update \x1b[1;97m]\n")
+         os.system('git pull')
+         print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m sukses update!\n ")
          yayanxd()
     elif yayan == "3" or yayan =="03":
          os.system('')
@@ -345,14 +347,14 @@ def moch_yayan():
          os.system('')
          yayanxd()
     elif yayan == "5" or yayan =="05":
-         print("\n\n\x1b[1;97m      [ \x1b[1;92mPlease Wait While Updating The Tools \x1b[1;97m]\n")
+         print("\n\n\x1b[1;97m      [ \x1b[1;92mtunggu aja lagi update \x1b[1;97m]\n")
          os.system("git pull")
-         print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Successfully Updated!\n ")
+         print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m sukses update!\n ")
          yayanxd()
     elif yayan == "0" or yayan =="00":
          aahh("\n\033[1;92m pergi sana lu anjing\n\n")
-         os.system('')
-         exit()               	
+         os.system(python Haram6.py)
+         exit()                   	
 
 if __name__=="__main__":
      ikeh_ikeh_kimochi()
